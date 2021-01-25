@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace FrostGuard_Project
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string connectionString = @"Data Source=WIN-50GP30FGO75;Initial Catalog=Demodb;User ID=sa;Password=demol23";
-            DatabaseConnection databaseConnection = new DatabaseConnection(connectionString);
+          
 
 
             //Get DATA
